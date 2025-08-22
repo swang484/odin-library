@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Teyvat'; 
+  src: url('./zh-cn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Teyvat', sans-serif;
+    background-color: rgb(189, 189, 189);
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    height: 94vh;
+}
+
+.book-container {
+    padding: 30px;
+}
+
+.book {
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book:hover {
+    box-shadow: 0 0 10px rgba(127, 62, 62, 0.9);
+}
