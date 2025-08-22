@@ -39,3 +39,7 @@ h2 {
 .book:hover {
     box-shadow: 0 0 10px rgba(127, 62, 62, 0.9);
 }
+
+button, input {
+    font-family: inherit;
+}
